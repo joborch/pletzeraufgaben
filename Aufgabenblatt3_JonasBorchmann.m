@@ -27,3 +27,4 @@ hold off; %Graph anzeigen
 mynoise = @(x) rand(size(x));
 
 mynoisetest = mynoise(y)
+
