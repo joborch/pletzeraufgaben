@@ -27,3 +27,8 @@ hold off; %Graph anzeigen
 mynoise = @(x) rand(size(x));
 
 mynoisetest = mynoise(y)
+
+%% Aufgabe 3
+%Test der myBMI.m Funktion
+
+[testBMI klassifikation] = myBMI(1.86, 70)
