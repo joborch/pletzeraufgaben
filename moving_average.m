@@ -15,4 +15,5 @@ function [movAve] = moving_average(input)
         end
     end
 
+    movAve = output;
 end
