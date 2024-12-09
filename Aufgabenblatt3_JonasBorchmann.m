@@ -1,3 +1,4 @@
+%% Aufgabe 1
 %Beispielsignal erstellen
 x = 0:pi/16:2*pi;
 y=sin(x);
@@ -22,3 +23,7 @@ grid on; %Gitternetz anschalten
 
 hold off; %Graph anzeigen
 
+%% Aufgabe 2
+mynoise = @(x) rand(size(x));
+
+mynoisetest = mynoise(y)
