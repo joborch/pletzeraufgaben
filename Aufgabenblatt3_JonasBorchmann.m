@@ -5,3 +5,5 @@ rauschen=rand(size(y));
 signal=y+0.2*rauschen-0.1;
 
 smooth_signal = moving_average(signal);
+
+smooth_signal
