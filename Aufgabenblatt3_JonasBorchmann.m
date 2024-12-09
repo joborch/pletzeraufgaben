@@ -31,4 +31,4 @@ mynoisetest = mynoise(y)
 %% Aufgabe 3
 %Test der myBMI.m Funktion
 
-[testBMI klassifikation] = myBMI(186,70)
+[testBMI klassifikation] = myBMI(1.86, 70)
