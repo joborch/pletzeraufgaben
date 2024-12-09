@@ -12,7 +12,7 @@ function [movAve] = moving_average(input)
         else
             output(i) = input(i);
         end
-        disp(["Gleitender Mittelwert " i " berechnet!")
+        disp(["Gleitender Mittelwert " i " berechnet!"])
     end
 
     movAve = output;
