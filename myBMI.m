@@ -11,6 +11,6 @@ function [BMI, classification] = myBMI()
     elseif BMI > 25
         classification = 'übergewichtig';
     else
-        classification = 'norm';
+        classification = 'normal';
     end
 end
